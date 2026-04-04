@@ -1,0 +1,536 @@
+{
+  "business": {
+    "name": "Legacy Appliance Repair",
+    "phone": "555-app-r94",
+    "category": "appliance-repair",
+    "city": "Orlando",
+    "state": "FL"
+  },
+  "design": {
+    "preset": {
+      "id": "appliance-repair-heritage-craft",
+      "categoryGroup": "appliance-repair",
+      "name": "Heritage Craft",
+      "recipeFile": "appliance-repair/heritage-craft.astro",
+      "colors": {
+        "primary": "#3A6B82",
+        "primaryDark": "#23404e",
+        "primaryLight": "#bacbd3",
+        "secondary": "#315b6f",
+        "accent": "#3A6B82",
+        "background": "#F5F2ED",
+        "backgroundAlt": "#315b6f",
+        "surface": "#EDEAE4",
+        "text": "#1A1510",
+        "textLight": "#4A4540",
+        "textOnDark": "#F5F2ED",
+        "border": "#D5CEBC"
+      },
+      "typography": {
+        "headingFont": "Playfair Display",
+        "headingWeight": "600",
+        "bodyFont": "Libre Franklin",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.25"
+      },
+      "shape": {
+        "borderRadius": "4px",
+        "buttonRadius": "4px",
+        "cardRadius": "6px",
+        "shadowStyle": "subtle"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "surface",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "generous"
+      }
+    },
+    "recipeId": "appliance-repair/heritage-craft"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Orlando's Trusted Appliance Repair Experts",
+      "heroSubline": "Fast, reliable repairs for your essential home appliances. Serving Central Florida families since 2012 with same-day service.",
+      "aboutTitle": "Your Neighborhood Appliance Specialists",
+      "aboutText": [
+        "Founded in 2012 by Orlando native Mark Thompson, Legacy Appliance Repair grew from a single service van to a 20-person team dedicated to keeping Central Florida households running smoothly. We understand how vital appliances are in our hot Florida climate.",
+        "We take pride in transparent pricing, upfront diagnostics, and using only manufacturer-approved parts. Our technicians receive continuous training on the latest appliance models and energy-efficient technologies.",
+        "As part of our commitment to Orlando, we support local food banks by donating a portion of every service call and offering free repairs for qualifying low-income seniors in Orange County."
+      ],
+      "valueProps": [
+        {
+          "title": "Same-Day Service",
+          "description": "We know Orlando families can't wait when the AC or fridge goes out. Most calls get same-day attention."
+        },
+        {
+          "title": "Florida-Expert Technicians",
+          "description": "Our team specializes in addressing how humidity and heat impact appliance performance."
+        },
+        {
+          "title": "No Hidden Fees",
+          "description": "You'll get an upfront quote before any work begins - no surprises on your bill."
+        },
+        {
+          "title": "Local Parts Network",
+          "description": "We maintain relationships with Orlando parts suppliers to reduce wait times for repairs."
+        }
+      ],
+      "ctaHeadline": "Schedule Your Repair Today",
+      "ctaSubline": "Call 555-app-r94 for fast, friendly service from Orlando's most trusted appliance team."
+    },
+    "services": [
+      {
+        "slug": "refrigerator-repair",
+        "name": "Refrigerator Repair",
+        "shortDescription": "Emergency cooling system repairs to protect your groceries in Orlando's heat.",
+        "description": "Florida's relentless heat makes refrigerator failures urgent. We specialize in diagnosing compressor issues, evaporator coil cleaning (critical in our dusty climate), and fixing seal leaks that strain your cooling system. Our technicians carry thermal imagers to pinpoint insulation failures common in older College Park homes.\n\nWe stock common LG and Samsung parts that dominate Orlando's appliance market, including humidity sensors that often fail in our climate. For vacation rental properties in Kissimmee, we offer preventive maintenance packages to avoid costly breakdowns between tenants.",
+        "process": [
+          "Step 1: Comprehensive diagnostics including amp draw tests on compressors",
+          "Step 2: Clear explanation of needed repairs with upfront pricing",
+          "Step 3: Same-day parts installation using our local supplier network",
+          "Step 4: Performance testing and energy efficiency check"
+        ],
+        "benefits": [
+          "Prevents food spoilage in Orlando's 90°+ summers",
+          "Reduces energy bills from overworked units",
+          "Extends appliance life in harsh conditions",
+          "24/7 emergency service for rental properties"
+        ],
+        "faq": [
+          {
+            "question": "Why does my fridge run constantly in summer?",
+            "answer": "Florida's high humidity forces your unit to work harder. We'll check door seals, clean condenser coils, and verify proper refrigerant levels - common issues in our climate."
+          },
+          {
+            "question": "How often should vacation rental fridges be serviced?",
+            "answer": "Every 6 months. Tenant turnover means heavy use and door seal wear. Our rental property package includes coil cleaning and thermostat calibration."
+          }
+        ]
+      },
+      {
+        "slug": "washer-dryer-repair",
+        "name": "Washer & Dryer Repair",
+        "shortDescription": "Expert repairs for laundry systems battling Orlando's hard water and humidity.",
+        "description": "Central Florida's mineral-rich water accelerates wear on washing machines, while humidity challenges dryer efficiency. We frequently repair:\n\n- Hard water buildup in pumps and valves (especially problematic in Lake Mary's upscale developments with whole-home water systems)\n- Mold/mildew in front-load gaskets (common in Baldwin Park's humid microclimate)\n- Vent blockages from lint buildup (critical to prevent fire hazards in older Thornton Park homes)\n\nFor historic Winter Park homes with stacked units in tight spaces, we bring specialized compact tools. We also service commercial laundry systems for Orlando's many vacation rental properties.",
+        "process": [
+          "Step 1: Diagnostic testing including water pressure and drain checks",
+          "Step 2: Component inspection with emphasis on Florida-specific issues",
+          "Step 3: Repair execution using anti-corrosion parts where needed",
+          "Step 4: Safety verification and efficiency testing"
+        ],
+        "benefits": [
+          "Reduces water waste from leaky valves",
+          "Prevents mildew odors in humid climates",
+          "Extends motor life with proper maintenance",
+          "Fire hazard reduction through vent cleaning"
+        ],
+        "faq": [
+          {
+            "question": "Why does my washer smell musty?",
+            "answer": "Orlando's humidity breeds mold in detergent residue. We'll deep clean with antimicrobial treatments and show you maintenance techniques."
+          },
+          {
+            "question": "Should I repair my 10-year-old dryer?",
+            "answer": "Often yes - modern dryers struggle with our humidity. We can upgrade sensors and ventilation for better performance rather than full replacement."
+          }
+        ]
+      },
+      {
+        "slug": "oven-range-repair",
+        "name": "Oven & Range Repair",
+        "shortDescription": "Precision repairs for cooking appliances in Orlando's diverse kitchens.",
+        "description": "From vintage Wedgewood stoves in Winter Park's historic homes to commercial ranges in Dr. Phillips restaurants, we repair all cooking systems. Common Orlando issues include:\n\n- Bake element failures from frequent summer use (when no one wants to heat their kitchen)\n- Gas valve problems in older Mills 50 properties\n- Electronic control board malfunctions from power surges during our frequent thunderstorms\n\nWe keep specialty parts for common Orlando brands like KitchenAid and Bosch. For hurricane preparedness, we offer quick-disconnect services for gas appliances when evacuations are necessary.",
+        "process": [
+          "Step 1: Multimeter testing of electrical components",
+          "Step 2: Gas line inspection (where applicable)",
+          "Step 3: Precision calibration for even heating",
+          "Step 4: Safety verification and cleaning"
+        ],
+        "benefits": [
+          "Accurate temperature control for baking",
+          "Eliminates dangerous gas leaks",
+          "Prevents electrical fire risks",
+          "Saves money versus replacement"
+        ],
+        "faq": [
+          {
+            "question": "Why won't my oven maintain temperature?",
+            "answer": "Florida heat strains thermostats. We'll test sensors and recalibrate for our climate's demands."
+          },
+          {
+            "question": "Is my old gas range repairable?",
+            "answer": "Most are. We source vintage parts and upgrade safety features to meet current standards."
+          }
+        ]
+      },
+      {
+        "slug": "dishwasher-repair",
+        "name": "Dishwasher Repair",
+        "shortDescription": "Fixing Orlando's hard water dishwasher issues since 2012.",
+        "description": "Orange County's hard water leads to frequent dishwasher repairs. We specialize in:\n\n- Removing mineral deposits from spray arms (a chronic issue in Lake Nona's newer builds)\n- Repairing leaky door seals (common in College Park's older homes)\n- Replacing worn pumps struggling with our sandy soil residue\n\nFor vacation rentals in Kissimmee, we install commercial-grade filters to handle heavy use. In Baldwin Park's energy-efficient homes, we optimize eco-cycle performance. All repairs include a free rinse aid refill to combat our hard water spotting.",
+        "process": [
+          "Step 1: Water pressure and drainage testing",
+          "Step 2: Component inspection with focus on mineral damage",
+          "Step 3: Descaling and parts replacement as needed",
+          "Step 4: Performance verification with local water conditions"
+        ],
+        "benefits": [
+          "Eliminates hard water spots on glassware",
+          "Reduces noisy operation",
+          "Improves drying performance",
+          "Prevents flooring damage from leaks"
+        ],
+        "faq": [
+          {
+            "question": "Why does my dishwasher leave gritty residue?",
+            "answer": "Sandy soil particles enter Orlando's water supply. We'll clean filters and check the grinder assembly."
+          },
+          {
+            "question": "Should I repair or replace my 8-year-old unit?",
+            "answer": "Most dishwashers last 12+ years here. We can often upgrade components for better efficiency."
+          }
+        ]
+      },
+      {
+        "slug": "ice-maker-repair",
+        "name": "Ice Maker Repair",
+        "shortDescription": "Keeping Orlando's ice flowing in freezers and standalone units.",
+        "description": "In a city where iced drinks are year-round necessities, ice maker failures are emergencies. We repair:\n\n- Clogged water lines from mineral buildup (particularly severe in Sanford's historic districts)\n- Faulty thermistors in outdoor kitchen units (common in Windermere pool homes)\n- Broken augers in commercial machines (for Orlando's many hospitality businesses)\n\nOur technicians carry portable ice makers for loan during repairs, so you're never without. For hurricane season, we offer quick-disconnect services to protect units during power outages.",
+        "process": [
+          "Step 1: Water supply and temperature diagnostics",
+          "Step 2: Component testing with emphasis on humidity sensitivity",
+          "Step 3: Descaling and parts replacement",
+          "Step 4: Sanitation flush and production testing"
+        ],
+        "benefits": [
+          "Prevents water leaks that damage floors",
+          "Ensures hygienic ice production",
+          "Reduces energy waste from cycling",
+          "24/7 emergency service for businesses"
+        ],
+        "faq": [
+          {
+            "question": "Why does my ice taste metallic?",
+            "answer": "Central Florida's water reacts with certain metals. We'll install food-grade lines and filters."
+          },
+          {
+            "question": "How often should vacation rental ice makers be serviced?",
+            "answer": "Quarterly. Heavy use accelerates wear. Our rental package includes deep cleaning and mold prevention."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Rebecca T.",
+        "rating": 5,
+        "service": "Refrigerator Repair",
+        "text": "Saved my Thanksgiving when my fridge died Wednesday night! Mark diagnosed a failed compressor and had it running by noon Thursday. As a Mills 50 homeowner with an older home, I appreciate how they explained the humidity impact on my unit's lifespan.",
+        "date": "2025-02-14"
+      },
+      {
+        "name": "Carlos M.",
+        "rating": 5,
+        "service": "Washer Repair",
+        "text": "Fixed my leaking LG washer in our Baldwin Park condo same-day. Technician showed me photos of the clogged drain pump (full of sand from our water) and explained how to maintain it better. Two years later, still running perfectly.",
+        "date": "2025-01-30"
+      },
+      {
+        "name": "Patricia W.",
+        "rating": 5,
+        "service": "Ice Maker Repair",
+        "text": "Our vacation rental in Kissimmee had constant ice maker issues between guests. Legacy installed a commercial-grade filter system and now we get zero complaints. Worth every penny for our property management business.",
+        "date": "2025-03-05"
+      },
+      {
+        "name": "James L.",
+        "rating": 5,
+        "service": "Oven Repair",
+        "text": "Repaired our 1980s Wedgewood stove in Winter Park - no one else would touch it! Found vintage parts and upgraded the thermostat. Now bakes evenly again. These guys preserve Orlando's character one appliance at a time.",
+        "date": "2025-03-18"
+      },
+      {
+        "name": "Sophia K.",
+        "rating": 5,
+        "service": "Dishwasher Repair",
+        "text": "Lake Mary homeowner here. Fixed our Bosch dishwasher that was leaving spots. Turned out to be hard water clogging the spray arms. They descaled everything and recommended a rinse aid that actually works with our water.",
+        "date": "2025-02-22"
+      },
+      {
+        "name": "Derrick S.",
+        "rating": 5,
+        "service": "Dryer Vent Cleaning",
+        "text": "Prevented a potential fire in our Thornton Park bungalow. Found a completely clogged vent from years of lint buildup. Now dries faster and safer. Their thermal camera inspection showed hotspots we never knew existed.",
+        "date": "2025-01-10"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Orlando Appliance Repair | Same-Day Service",
+        "description": "Trusted appliance repair serving Orlando, FL since 2012. Fast fixes for refrigerators, washers, ovens & more. Call 555-app-r94 for same-day service."
+      },
+      "about": {
+        "title": "About Our Orlando Appliance Repair Company",
+        "description": "Meet Legacy Appliance Repair - Orlando's local appliance specialists since 2012. Learn about our community commitment and repair philosophy."
+      },
+      "services": {
+        "title": "Orlando Appliance Repair Services",
+        "description": "Complete appliance repair services in Orlando, FL. Refrigerators, washers, ovens, dishwashers & ice makers. Same-day availability for most repairs."
+      },
+      "contact": {
+        "title": "Contact Orlando Appliance Repair Experts",
+        "description": "Need appliance repair in Orlando? Call 555-app-r94 for fast, reliable service. Serving Orange County and surrounding areas since 2012."
+      },
+      "reviews": {
+        "title": "Orlando Appliance Repair Reviews",
+        "description": "See what Orlando homeowners say about Legacy Appliance Repair. 97% satisfaction rating for refrigerator, washer, dryer and oven repairs."
+      },
+      "service-areas": {
+        "title": "Orlando Appliance Repair Service Areas",
+        "description": "Serving all of Orlando including Winter Park, Kissimmee, Lake Mary & Sanford. Same-day appliance repair across Central Florida."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    },
+    "serviceAreas": [
+      {
+        "city": "Kissimmee",
+        "slug": "kissimmee-fl",
+        "state": "FL",
+        "content": "Legacy Appliance Repair proudly serves the vibrant community of Kissimmee, FL, where vacation rental properties are abundant. Our expert technicians understand the importance of fast, reliable appliance repairs to keep vacation homes running smoothly for guests. With the hot, humid Florida summers putting extra strain on appliances like refrigerators and air conditioners, timely service is essential. We offer same-day repairs for emergencies to minimize downtime and ensure comfortable stays for visitors to this popular tourist destination.",
+        "localContext": "Kissimmee is known for its vacation rental properties and proximity to major attractions like Walt Disney World.",
+        "nearbyAreas": [
+          "Orlando",
+          "St. Cloud",
+          "Celebration"
+        ]
+      },
+      {
+        "city": "Winter Park",
+        "slug": "winter-park-fl",
+        "state": "FL",
+        "content": "In Winter Park's historic neighborhoods filled with 1920s-40s Mediterranean Revival homes, Legacy Appliance Repair specializes in maintaining and repairing appliances that complement these classic residences. We understand the unique needs of vintage homes, where modern appliance installations often require special expertise. The hot, humid climate means appliances like refrigerators and washing machines work overtime, making regular maintenance and prompt repairs essential. Our team is familiar with working in historic properties, ensuring careful service that preserves your home's character.",
+        "localContext": "Winter Park features beautiful historic architecture and a charming downtown area with brick streets and oak canopies.",
+        "nearbyAreas": [
+          "Orlando",
+          "Maitland",
+          "Eatonville"
+        ]
+      },
+      {
+        "city": "Sanford",
+        "slug": "sanford-fl",
+        "state": "FL",
+        "content": "Legacy Appliance Repair is proud to serve Sanford's historic downtown area and surrounding neighborhoods. We understand how important reliable appliances are for maintaining the character and functionality of Sanford's charming older homes. The hot, humid summers here in Central Florida can be particularly hard on appliances, causing extra wear and tear on refrigerators, freezers, and cooling systems. Our technicians are experienced with both modern appliances and older models commonly found in historic properties, ensuring we can handle any repair need with professionalism and care.",
+        "localContext": "Sanford boasts a beautifully restored historic downtown along Lake Monroe with brick streets and Victorian-era architecture.",
+        "nearbyAreas": [
+          "Lake Mary",
+          "Longwood",
+          "Oviedo"
+        ]
+      },
+      {
+        "city": "Lake Mary",
+        "slug": "lake-mary-fl",
+        "state": "FL",
+        "content": "In Lake Mary's upscale communities built primarily in the 1990s-2000s, Legacy Appliance Repair provides top-quality service for high-end appliances. We understand that homeowners in this area expect exceptional service to match their premium appliances. The hot, humid Florida climate means your appliances work harder year-round, making regular maintenance and prompt repairs essential. Our technicians are factory-trained on all major brands and familiar with the sophisticated appliance setups common in Lake Mary's newer, luxury homes.",
+        "localContext": "Lake Mary is known for its excellent schools, planned communities, and upscale residential developments.",
+        "nearbyAreas": [
+          "Sanford",
+          "Longwood",
+          "Heathrow"
+        ]
+      },
+      {
+        "city": "Orlando",
+        "slug": "orlando-fl",
+        "state": "FL",
+        "content": "Legacy Appliance Repair serves all of Orlando with prompt, professional appliance repair services. Whether you're in a downtown high-rise, a historic bungalow in College Park, or a suburban home in Dr. Phillips, our technicians can handle any appliance issue. Orlando's hot, humid climate makes refrigerator and AC repairs particularly crucial, and we offer emergency same-day service when needed. As a local business, we understand the diverse needs of Orlando residents and are committed to providing reliable service that fits your schedule.",
+        "localContext": "Orlando is a major metropolitan area known for its tourism industry, diverse neighborhoods, and warm climate.",
+        "nearbyAreas": [
+          "Winter Park",
+          "Maitland",
+          "Belle Isle"
+        ]
+      },
+      {
+        "city": "Altamonte Springs",
+        "slug": "altamonte-springs-fl",
+        "state": "FL",
+        "content": "Serving Altamonte Springs since our founding, Legacy Appliance Repair understands the appliance repair needs of this busy suburban community. Our technicians are familiar with all the common appliance issues caused by Florida's humid climate, from refrigerator condenser problems to washing machine mold buildup. We service homes in all of Altamonte Springs' neighborhoods, from the established communities around Cranes Roost Park to newer developments. With flexible scheduling options, we make appliance repairs convenient for working families and busy professionals.",
+        "localContext": "Altamonte Springs is a well-established suburb known for its central location and the popular Cranes Roost Park.",
+        "nearbyAreas": [
+          "Longwood",
+          "Casselberry",
+          "Maitland"
+        ]
+      },
+      {
+        "city": "Oviedo",
+        "slug": "oviedo-fl",
+        "state": "FL",
+        "content": "Legacy Appliance Repair provides dependable appliance service to Oviedo's growing residential areas. We understand how important functional appliances are for Oviedo's many families, from keeping groceries fresh to handling heavy laundry loads. The hot, humid summers here can accelerate wear on appliances, making regular maintenance and prompt repairs essential. Our technicians are experienced with all types of appliances found in Oviedo homes, from standard models to high-end upgrades common in newer constructions.",
+        "localContext": "Oviedo has experienced rapid growth while maintaining its small-town charm and excellent school system.",
+        "nearbyAreas": [
+          "Winter Springs",
+          "Chuluota",
+          "Geneva"
+        ]
+      },
+      {
+        "city": "Winter Garden",
+        "slug": "winter-garden-fl",
+        "state": "FL",
+        "content": "In Winter Garden's mix of historic downtown properties and newer suburban developments, Legacy Appliance Repair offers appliance services tailored to each home's needs. We're familiar with the challenges of maintaining appliances in older homes as well as servicing the latest models in newer constructions. Winter Garden's warm climate means refrigerators and cooling appliances work extra hard, requiring expert service when issues arise. Our team takes pride in providing prompt, professional repairs that keep your household running smoothly.",
+        "localContext": "Winter Garden features a charming historic downtown centered around Plant Street, with brick streets and antique shops.",
+        "nearbyAreas": [
+          "Ocoee",
+          "Windermere",
+          "Clermont"
+        ]
+      },
+      {
+        "city": "Apopka",
+        "slug": "apopka-fl",
+        "state": "FL",
+        "content": "Legacy Appliance Repair serves Apopka homeowners with reliable appliance repair services. Known as the 'Indoor Foliage Capital of the World,' Apopka's unique climate can create specific challenges for appliances. We understand how humidity affects refrigerator performance and how hard local water can be on dishwashers and washing machines. Our technicians are experienced with all major appliance brands and models, providing repairs that stand up to Apopka's environmental conditions.",
+        "localContext": "Apopka maintains a rural character in many areas while developing modern suburban communities.",
+        "nearbyAreas": [
+          "Ocoee",
+          "Zellwood",
+          "Maitland"
+        ]
+      },
+      {
+        "city": "Windermere",
+        "slug": "windermere-fl",
+        "state": "FL",
+        "content": "Legacy Appliance Repair provides premium appliance service to Windermere's luxury homes and estates. We understand that high-end homes require exceptional service for their top-of-the-line appliances. Our technicians are factory-trained on premium brands like Sub-Zero, Wolf, and Miele, ensuring your investments are properly maintained. The Florida heat can be particularly challenging for wine coolers and outdoor kitchen appliances common in Windermere homes, and we offer specialized services to address these needs.",
+        "localContext": "Windermere is an exclusive lakeside community known for its luxury estates and proximity to golf courses.",
+        "nearbyAreas": [
+          "Winter Garden",
+          "Dr. Phillips",
+          "Ocoee"
+        ]
+      },
+      {
+        "city": "Maitland",
+        "slug": "maitland-fl",
+        "state": "FL",
+        "content": "Serving Maitland's distinctive neighborhoods, Legacy Appliance Repair offers expert appliance services for both historic and modern homes. We're familiar with the mix of architectural styles in Maitland, from mid-century modern to contemporary luxury homes. The area's humid subtropical climate means appliances work harder year-round, making reliable service essential. Our team provides thorough diagnostics and lasting repairs to keep your appliances functioning at peak performance through every season.",
+        "localContext": "Maitland features beautiful lakeside properties and a mix of architectural styles from different eras.",
+        "nearbyAreas": [
+          "Winter Park",
+          "Eatonville",
+          "Altamonte Springs"
+        ]
+      },
+      {
+        "city": "Celebration",
+        "slug": "celebration-fl",
+        "state": "FL",
+        "content": "Legacy Appliance Repair is proud to serve Celebration, the master-planned community developed by The Walt Disney Company. We understand the unique appliance needs of this meticulously designed town, where aesthetics and functionality are equally important. Our technicians are experienced with the high-end appliance brands commonly installed in Celebration homes. The Florida climate can be challenging for appliances, and we offer preventive maintenance plans to help extend their lifespan in these conditions.",
+        "localContext": "Celebration is known for its picturesque downtown, architectural controls, and proximity to Walt Disney World.",
+        "nearbyAreas": [
+          "Kissimmee",
+          "St. Cloud",
+          "Four Corners"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "refrigerator-repair": "/images/service-refrigerator-repair.webp",
+      "washer-dryer-repair": "/images/service-washer-dryer-repair.webp",
+      "oven-range-repair": "/images/service-oven-range-repair.webp",
+      "dishwasher-repair": "/images/service-dishwasher-repair.webp",
+      "ice-maker-repair": "/images/service-ice-maker-repair.webp"
+    },
+    "servicesResponsive": {
+      "refrigerator-repair": {
+        "src": "/images/service-refrigerator-repair.webp",
+        "srcset": "/images/service-refrigerator-repair-400w.webp 400w, /images/service-refrigerator-repair-800w.webp 800w, /images/service-refrigerator-repair-1200w.webp 1200w, /images/service-refrigerator-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "washer-dryer-repair": {
+        "src": "/images/service-washer-dryer-repair.webp",
+        "srcset": "/images/service-washer-dryer-repair-400w.webp 400w, /images/service-washer-dryer-repair-800w.webp 800w, /images/service-washer-dryer-repair-1200w.webp 1200w, /images/service-washer-dryer-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "oven-range-repair": {
+        "src": "/images/service-oven-range-repair.webp",
+        "srcset": "/images/service-oven-range-repair-400w.webp 400w, /images/service-oven-range-repair-800w.webp 800w, /images/service-oven-range-repair-1200w.webp 1200w, /images/service-oven-range-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "dishwasher-repair": {
+        "src": "/images/service-dishwasher-repair.webp",
+        "srcset": "/images/service-dishwasher-repair-400w.webp 400w, /images/service-dishwasher-repair-800w.webp 800w, /images/service-dishwasher-repair-1200w.webp 1200w, /images/service-dishwasher-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "ice-maker-repair": {
+        "src": "/images/service-ice-maker-repair.webp",
+        "srcset": "/images/service-ice-maker-repair-400w.webp 400w, /images/service-ice-maker-repair-800w.webp 800w, /images/service-ice-maker-repair-1200w.webp 1200w, /images/service-ice-maker-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
